@@ -6,5 +6,9 @@
   "repository": "git@github.com:joe-damore/radio-waves.git",
   "author": "Joe D'Amore <joe@joedamore.me>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
