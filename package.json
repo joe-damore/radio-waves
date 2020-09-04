@@ -1,0 +1,10 @@
+{
+  "name": "radio-waves",
+  "version": "0.1.0",
+  "description": "Experimental streaming music player",
+  "main": "index.js",
+  "repository": "git@github.com:joe-damore/radio-waves.git",
+  "author": "Joe D'Amore <joe@joedamore.me>",
+  "license": "MIT",
+  "private": true
+}
