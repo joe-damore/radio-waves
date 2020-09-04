@@ -1,0 +1,70 @@
+// Body size, margins, and padding.
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+// Body scrolling.
+body {
+    scroll-behavior: smooth;
+}
+
+// Body typography.
+body {
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+// Box sizing.
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// Default padding.
+// Note: padding is left unchanged for lists with no classes specified.
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+// Default margin.
+// Note: margin is left unchanged for lists with no classes specified.
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+// Anchor underlines.
+// Note: anchors are left unchanged if a class is specified.
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+// Treat images as block elements.
+img {
+    display: block;
+}
+
+// Form element typography.
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
