@@ -2,6 +2,10 @@
   "name": "radio-waves",
   "version": "0.1.0",
   "description": "Experimental streaming music player",
+  "scripts": {
+    "start": "electron --enable-transparent-visuals ./dist/main.bundle.js",
+    "build": "npx webpack"
+  },
   "main": "index.js",
   "repository": "git@github.com:joe-damore/radio-waves.git",
   "author": "Joe D'Amore <joe@joedamore.me>",
@@ -9,7 +13,7 @@
   "private": true,
   "devDependencies": {
     "css-loader": "^4.2.2",
-    "electron": "^10.1.1",
+    "electron": "^9.3.0",
     "html-webpack-plugin": "^4.4.1",
     "sass": "^1.26.10",
     "sass-loader": "^10.0.2",
